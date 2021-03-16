@@ -1,3 +1,19 @@
+/*macro 匯入*/
+%macro in(first,last);
+%do i=&first %to &last;
+PROC IMPORT OUT= WORK.A107&i. 
+            DATAFILE= "C:\Users\USER\Google 雲端硬碟\airbox\環保署\放到sas跑的檔\107 all\A107&i..xls" 
+            DBMS=EXCEL REPLACE;
+     RANGE="Sheet1$"; 
+     GETNAMES=YES;
+     MIXED=NO;
+     SCANTEXT=YES;
+     USEDATE=YES;
+     SCANTIME=YES;
+RUN;
+%end;
+%mend;
+%in(1,77);
 /*照日期先排序，再照測站、測項排序*/
 proc sort data=work.aa;
 by _col0 _COL1 _col2;
