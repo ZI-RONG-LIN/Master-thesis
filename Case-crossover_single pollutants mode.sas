@@ -1,0 +1,302 @@
+/*gender*/
+proc phreg data=n.lag1sex1;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag1sex1;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag1sex1;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag1sex1;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag1sex1;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag1sex1;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag1sex1;
+model time*event(0)=rh_10/risklimits;
+run;
+
+proc phreg data=n.lag1sex2;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag1sex2;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag1sex2;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag1sex2;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag1sex2;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag1sex2;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag1sex2;
+model time*event(0)=rh_10/risklimits;
+run;
+
+
+
+/*age*/
+
+
+proc phreg data=n.lag1age04;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag1age04;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag1age04;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag1age04;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag1age04;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag1age04;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag1age04;
+model time*event(0)=rh_10/risklimits;
+run;
+
+
+proc phreg data=n.lag1age59;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag1age59;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag1age59;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag1age59;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag1age59;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag1age59;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag1age59;
+model time*event(0)=rh_10/risklimits;
+run;
+
+
+proc phreg data=n.lag1age10;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag1age10;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag1age10;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag1age10;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag1age10;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag1age10;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag1age10;
+model time*event(0)=rh_10/risklimits;
+run;
+
+
+/*location*/
+
+proc phreg data=n.lag1lon;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag1lon;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag1lon;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag1lon;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag1lon;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag1lon;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag1lon;
+model time*event(0)=rh_10/risklimits;
+run;
+
+
+proc phreg data=n.lag1loc;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag1loc;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag1loc;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag1loc;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag1loc;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag1loc;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag1loc;
+model time*event(0)=rh_10/risklimits;
+run;
+
+
+proc phreg data=n.lag1los;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag1los;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag1los;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag1los;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag1los;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag1los;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag1los;
+model time*event(0)=rh_10/risklimits;
+run;
+
+
+proc phreg data=n.lag1loe;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag1loe;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag1loe;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag1loe;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag1loe;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag1loe;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag1loe;
+model time*event(0)=rh_10/risklimits;
+run;
+
+/*season*/
+proc phreg data=n.lag2sesp;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag2sesp;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag2sesp;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag2sesp;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag2sesp;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag2sesp;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag2sesp;
+model time*event(0)=rh_10/risklimits;
+run;
+
+
+proc phreg data=n.lag2sesu;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag2sesu;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag2sesu;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag2sesu;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag2sesu;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag2sesu;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag2sesu;
+model time*event(0)=rh_10/risklimits;
+run;
+
+proc phreg data=n.lag2seau;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag2seau;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag2seau;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag2seau;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag2seau;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag2seau;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag2seau;
+model time*event(0)=rh_10/risklimits;
+run;
+
+
+proc phreg data=n.lag2sew;
+model time*event(0)=r_10/risklimits;
+run;
+proc phreg data=n.lag2sew;
+model time*event(0)=O3_10/risklimits;
+run;
+proc phreg data=n.lag2sew;
+model time*event(0)=nox_10/risklimits;
+run;
+proc phreg data=n.lag2sew;
+model time*event(0)=sox_10/risklimits;
+run;
+proc phreg data=n.lag2sew;
+model time*event(0)=nmhc/risklimits;
+run;
+proc phreg data=n.lag2sew;
+model time*event(0)=t/risklimits;
+run;
+proc phreg data=n.lag2sew;
+model time*event(0)=rh_10/risklimits;
+run;
